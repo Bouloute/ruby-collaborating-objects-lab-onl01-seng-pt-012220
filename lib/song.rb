@@ -27,7 +27,6 @@ class Song
     if found_artist == nil
       found_artist = Artist.new(artist_name)
     end
-    
     found_artist.add_song(self)
     
   end
