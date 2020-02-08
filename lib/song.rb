@@ -1,4 +1,3 @@
-require('pry')
 class Song
 
   attr_accessor :artist, :name
@@ -17,7 +16,6 @@ class Song
     song_info = filename.split(" - ")
     new_song = Song.new(song_info[1])
     new_song.artist_name = song_info[0]
-    #binding.pry
     new_song
   end
   
